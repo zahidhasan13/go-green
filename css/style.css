@@ -27,11 +27,11 @@ img {
   display: inline-block;
 }
 .container {
-  max-width: 120rem;
+  max-width: 116rem;
   margin: 0 auto;
 }
 .btn-primary {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   background: rgb(121, 185, 0);
   padding: 1rem 2rem;
   border-radius: 3rem;
@@ -96,4 +96,101 @@ img {
   background-position: center center;
   height: 100vh;
   width: 100%;
+}
+.hero-social {
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 60%;
+  left: -7%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  rotate: 270deg;
+}
+.hero-social h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.hero-line {
+  height: 1px;
+  width: 5rem;
+  background: #fff;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.social-icon i {
+  font-size: 1.6rem;
+  color: rgb(121, 185, 0);
+  background: #1e282b;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.5s;
+}
+.social-icon i:hover {
+  background: rgb(121, 185, 0);
+  color: #fff;
+}
+.hero-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-subheading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(121, 185, 0);
+  text-transform: uppercase;
+}
+.hero-heading {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero-heading span {
+  color: rgb(121, 185, 0);
+}
+.hero-desc {
+  font-size: 1.4rem;
+  color: #fff;
+  width: 45%;
+  margin: 2rem 0;
+}
+.hero-btn {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.hero-btn .btn-primary i {
+  margin-left: 0.5rem;
+}
+.hero-video-btn {
+  background: rgb(121, 185, 0);
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: all 0.5s;
+}
+.hero-video-btn:hover {
+  background: rgb(0, 128, 0);
+}
+.hero-video-btn i {
+  font-size: 3rem;
+  color: #fff;
+}
+.hero-btn a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.5s;
+}
+.hero-btn a:hover {
+  color: rgb(121, 185, 0);
 }
